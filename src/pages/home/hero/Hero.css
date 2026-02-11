@@ -1,0 +1,43 @@
+.main--hero{
+    background-image: url('../../../assets/Hero\ image.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 40px 50px;
+    margin-top: 30px;
+}
+
+.text--main p:nth-child(3){
+    color: #CFCFCF;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.text--main p:nth-child(1){
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.text--main h2{
+    font-weight: 700;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+
+.icons--div{
+    gap: 10px;
+    border: 1px solid #CFCFCF;
+    border-radius: 8px;
+    width: 430px;
+    height: 128px;
+}
+
+.icons--div p{
+    color: #CFCFCF;
+    font-size: 14px;
+    display: flex;
+    align-items: center;padding: 5px 20px;
+}
