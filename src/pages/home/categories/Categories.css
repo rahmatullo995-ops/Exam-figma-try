@@ -1,0 +1,54 @@
+.card--num__one{
+    display: flex;
+    width: 460px;
+    height: 200px;
+    background-color: #0000000A;
+    padding-left: 260px;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.ForText{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.ForText h3:nth-child(1){
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+}
+
+.ForText p{
+    font-weight: 400;
+    font-size: 14px;
+    color: #2E2E2E;
+}
+
+.NumOne{
+    color: #00A399;
+    font-size: 14px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.ForCards--1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ForCards--2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card--div__dad{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

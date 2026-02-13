@@ -1,4 +1,4 @@
-import "./Footertop.css";
+import './Jean.css';
 
 const Testimonial = () => {
   return (

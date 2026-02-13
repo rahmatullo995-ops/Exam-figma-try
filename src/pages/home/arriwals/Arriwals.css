@@ -1,0 +1,64 @@
+.card--div__nav{
+    background-image: url('../../../assets/arriwals.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+    margin-top: 50px;
+}
+
+.card--div__nav h1{
+    font-size: 250px;
+    display: flex;
+    gap: 10px;
+    color: #FFFFFF;
+}
+
+.card--div__nav h1 span{
+    color: #2E2E2E;
+}
+
+.TextMain--main p:nth-child(1){
+    color: #2E2E2E;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.One{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Two{
+    font-weight: 600;
+    font-size: 34px;
+    color: #2E2E2E;
+}
+
+.CardDiv--one{
+    display: flex;
+    gap: 10px;
+}
+
+.CardDiv--one .card--1{
+    border: 1px solid#2E2E2E;
+    width: 123px;
+    height: 96px;
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+
+.CardDiv--one .card--2{
+    border: 1px solid#2E2E2E;
+    width: 144px;
+    height: 96px;
+    border-radius: 8px;
+    padding: 10px 15px;
+}
+
+.TextMain--main{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left: 900px;
+}

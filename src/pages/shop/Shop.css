@@ -1,0 +1,39 @@
+.DivSon{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    height: 250px;
+    padding-top: 100px;
+    padding-left: 10%;
+    background-color: #0000000F;
+
+}
+
+.p--tag{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.emptyDiv{
+    width: 400px;
+    height: 400px;
+    background-color: #0000000A;
+    border-radius: 8px;
+}
+
+.card--one__num{
+    text-align: center;
+    width: 338px;
+}
+
+.One--1__A{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.ShopCards{
+    margin-top: 50px;
+}

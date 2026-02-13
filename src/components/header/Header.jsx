@@ -10,7 +10,9 @@ const Header = () => {
     return (
         <div className="container">
             <header className="header--div">
+                <Link to='/'>
                 <img src={Image} />
+                </Link>
                 <div className="save--inputs">
                     <input type="text" placeholder="Search..." />
                     <button>
@@ -30,7 +32,7 @@ const Header = () => {
                     <Link>Product</Link>
                 </p>
                 <p>
-                    <Link>Flash Sale</Link>
+                    <Link to={'/shop'}>Flash Sale</Link>
                 </p>
                 <p>
                     <Link>Best Sellers</Link>
